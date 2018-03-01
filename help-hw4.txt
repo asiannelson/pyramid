@@ -1,0 +1,28 @@
+Getting into a folder and running python in virtualenv in terminal
+
+Getting into your folder you want it be in. (cd = change directory):
+
+	cd Desktop/Programming/Siminar/projects/hello/world
+
+Getting into virtualenv:
+	workon "pyramid" (Name you gave when you made you virtualenv)
+
+adding a virtualenv:
+	virtualenv 'pyramid' (or the name you want to give)
+
+making sure you added the virtualenv:
+	lsvirtualenv
+		should look like this 
+			pyramid
+			=======
+once in virtualenv:
+	pip install pyramid
+	
+running python code:
+	python nhsiao-hw4.py (or name of the python file)
+
+Should tell you server is running
+
+Go to your web browser and in the address bar type in: 
+	localhost:8080/home
+	
